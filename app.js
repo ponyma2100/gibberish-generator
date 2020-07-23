@@ -14,12 +14,6 @@ Handlebars.registerHelper("setChecked", function (gridRadios, currentValue) {
     return ""
   }
 })
-// Handlebars.registerHelper('same', (gridRadios, current, options) => {
-//   if (gridRadios === current) {
-//     return options.fn(this);
-//   }
-//   return options.inverse(this);
-// })
 
 //setting template engine
 app.engine('handlebars', exphbs({ defaultLayout: 'main' }))
