@@ -1,4 +1,5 @@
 # gibberish-generator
+![示意圖](https://i.imgur.com/SP9GO1R.png)
 
 # 幹話產生器
 
