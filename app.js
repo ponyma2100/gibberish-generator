@@ -7,11 +7,11 @@ const generateGibberish = require('./generate_gibberish')
 const Handlebars = require('handlebars')
 
 
-Handlebars.registerHelper("setChecked", function (gridRadios, currentValue) {
-  if (gridRadios == currentValue) {
-    return "checked"
+Handlebars.registerHelper('setChecked', function (gridRadios, currentValue) {
+  if (gridRadios === currentValue) {
+    return 'checked'
   } else {
-    return ""
+    return ''
   }
 })
 
