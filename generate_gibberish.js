@@ -16,11 +16,11 @@ function generateGibberish(gridRadios) {
   }
   const phrase = ['很簡單', '很容易', '很快', '很正常']
 
-  if (gridRadios === 'option1') {
+  if (gridRadios === 'engineer') {
     return `身為一個${target.engineer}${randomTalk(task.engineer)}${randomTalk(phrase)}`
-  } else if (gridRadios === "option2") {
+  } else if (gridRadios === 'designer') {
     return `身為一個${target.designer}${randomTalk(task.designer)}${randomTalk(phrase)}`
-  } else if (gridRadios === "option3") {
+  } else if (gridRadios === 'entrepreneur') {
     return `身為一個${target.entrepreneur}${randomTalk(task.entrepreneur)}${randomTalk(phrase)}`
   }
 }
